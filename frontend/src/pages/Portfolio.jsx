@@ -27,7 +27,7 @@ export default function Portfolio() {
                             ToDo List
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora incidunt odit blanditiis nam, officiis fuga ab consectetur veritatis!
+                            A web application built using React JS and Node-JS that allows users to create ToDo List. Implemented features such as  user authentication.
                         </Typography>
                     </CardContent>
                     <CardActions>
@@ -55,7 +55,7 @@ export default function Portfolio() {
                             Blog Application
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora incidunt odit blanditiis nam, officiis fuga ab consectetur veritatis!
+                            A web application built using React JS ,MongoDB and NodeJS that allows users to create and publish blog posts. Implemented features such as user authentication,Update and Delete Blog
                         </Typography>
                     </CardContent>
                     <CardActions>
@@ -82,11 +82,12 @@ export default function Portfolio() {
                             E-commerce Application
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora incidunt odit blanditiis nam, officiis fuga ab consectetur veritatis!
+                            A web application built using React JS and Node-JS that allows users to browse and purchase products online. Implemented features such as product searchshopping cart, checkout process, and user authentication.
+
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Stack direction='row' >
+                        <Stack direction='row' marginY={-1} >
                             <Button size="small">Web Design<span className='spanstyle'> /18 Sep. 2018</span></Button>
                             <Fab sx={{ marginLeft: 12, }} color="primary" size="medium" aria-label="add">
                                 <AddIcon />
@@ -96,7 +97,7 @@ export default function Portfolio() {
                     </CardActions>
                 </Card>
             </Grid>
-            <Grid lg={4} sm={6} md={6} >
+            <Grid lg={4} sm={6} md={6} marginBottom={2} >
                 <Card sx={{ maxWidth: 345, marginTop: 4, }}>
                     <CardMedia
                         component="img"
@@ -109,7 +110,7 @@ export default function Portfolio() {
                             Employee Management
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora incidunt odit blanditiis nam, officiis fuga ab consectetur veritatis!
+                            A simple employee management app built using ReactJS
                         </Typography>
                     </CardContent>
                     <CardActions>
@@ -136,11 +137,11 @@ export default function Portfolio() {
                             Tic Tac Toe
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora incidunt odit blanditiis nam, officiis fuga ab consectetur veritatis!
+                            A simple tic-tac-toe game built using JavaScript
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Stack direction='row' >
+                        <Stack direction='row' marginTop={2.5}>
                             <Button size="small">Web Design<span className='spanstyle'> /18 Sep. 2018</span></Button>
                             <Fab sx={{ marginLeft: 12, }} color="primary" size="medium" aria-label="add">
                                 <AddIcon />
@@ -162,7 +163,7 @@ export default function Portfolio() {
                             Money Manager
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora incidunt odit blanditiis nam, officiis fuga ab consectetur veritatis!
+                            A simple money manager app built using JavaScript
                         </Typography>
                     </CardContent>
                     <CardActions>

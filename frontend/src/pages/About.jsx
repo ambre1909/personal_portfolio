@@ -94,14 +94,17 @@ export default function About() {
                         Completed an internship as a frontend developer at SKILLHUB IT Solutions Company, where I worked on creating responsive web pages  and developing user interfaces using ReactJS.
                         Developed a personal portfolio website using ReactJS and Material UI deployed it on GitHub pages. Also created a responsive  e-commerce website using React-js ,Node-js and Material UI and Clone of Blah Blah car using React-js ,and Node-js
                     </p>
-                    <br />
-                    <p className='textstyle' >
+                    {/* <br /> */}
+                    {/* <p className='textstyle' >
                         Ever since I was introduced to coding, I have been fascinated by the ability to create something from scratch using just a few lines of code. Over the years, I have honed my skills in HTML, CSS, and JavaScript,React-js Node-js  and I am constantly exploring new technologies and frameworks to stay on top of the latest trends in web development.
                         In my free time, I like to work on personal projects and experiment with different design patterns and coding techniques. I believe that the key to becoming a great developer is to always be curious and never stop learning. I am always looking for new challenges and opportunities to improve my skills and make an impact.
 
-                    </p>
-                    <br />
-                    <p className='textstyle'>If you are looking for a dedicated and hardworking frontend developer who is passionate about building elegant and user-friendly web applications, then I would love to hear from you.</p>
+                    </p> */}
+                    {/* <br /> */}
+                    <p className='textstyle'>
+                        Ever since I was introduced to coding, I have been fascinated by the ability to create something from scratch using just a few lines of code. Over the years, I have honed my skills in HTML, CSS, and JavaScript,React-js Node-js  and I am constantly exploring new technologies and frameworks to stay on top of the latest trends in web development.
+                        <br />
+                        If you are looking for a dedicated and hardworking frontend developer who is passionate about building elegant and user-friendly web applications, then I would love to hear from you.</p>
                 </Box>
 
             </Grid>
